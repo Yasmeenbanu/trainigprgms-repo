@@ -1,0 +1,15 @@
+class employee:
+    def __init__(self,name,age,sal,place):
+        self.ename=name
+        self.eage=age
+        self.esal=sal
+        self.eplace=place
+    def display(self):
+        print(self.ename)
+        print(self.eage)
+        print(self.esal)
+        print(self.eplace)
+e=employee("Ramu",18,10000,"banglore")
+f=open("serial.txt","wb")
+print("Employee object stored inside the file")
+f.close()
